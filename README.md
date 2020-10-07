@@ -1,2 +1,2 @@
-# javascriptQuiz
+# JavascriptQuiz
 Timed Quiz around Javascript
