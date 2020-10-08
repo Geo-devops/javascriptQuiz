@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    
     <title>Javascript Quiz</title>
 </head>
 <body>
     <!-- NEED TITLE FOR QUIZ -->
-    <h1>JAVASCRIPT QUIZ</h1>
+    <header>
+        <h1>Javascript Quiz</h1>
+    </header>
+    <div id="container"></div>
+    <div id='Quiz'></div>
+    <div id="start">Start Quiz</div>
+    <div id='choices'>
+        <div class='choice' id='A'onclick="checkAnswer('A')"></div>
+        <div class='choice' id='B' onclick="checkAnswer('B')"></div>
+        <div class='choice' id='C' onclick="checkAnswer('C')"></div>
+        <div class='choice' id='D' onclick="checkAnswer('D')"></div>
+    </div>
+    <!-- <button id="answer">Answer</button> -->
+    <!-- <div id="results"></div> -->
+    <!-- timer -->
+    <div id="timer">
+    <div id="countdown"></div>
+    </div>
+
+
+    <!-- score card container -->
+    <div id="scoreContainer"></div>
+</div>
+
+
 
     <!-- NEED PROMPT WITH INSTRUCTIONS -->
     <!-- QUESTIONS WITH MULTIPLE CHOICE  -->
@@ -15,6 +42,6 @@
     <!-- PROMPT LETTING YOU KNOW HOW MANY RIGHT/WRONG AND SCORE -->
     <!-- HIGHSCORE SAVE WITH INITIAL  -->
     <!-- HIGHSCORE BUTTON SAVED -->
-    
+<script src="script.js"></script>
 </body>
 </html>
